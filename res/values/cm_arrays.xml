@@ -182,6 +182,7 @@
         <item>@string/app_ops_categories_media</item>
         <item>@string/app_ops_categories_device</item>
         <item>@string/app_ops_categories_bootup</item>
+        <item>@string/app_ops_categories_sensors</item>
         <item>@string/app_ops_categories_su</item>
     </string-array>
 
@@ -256,6 +257,8 @@
         <item>@string/app_ops_summaries_toggle_nfc</item>
         <item>@string/app_ops_summaries_toggle_mobile_data</item>
         <item>@string/app_ops_summaries_superuser</item>
+        <item>@string/app_ops_summaries_motion_sensors</item>
+        <item>@string/app_ops_summaries_other_sensors</item>
     </string-array>
 
     <!-- User display names for app ops codes - extension of AOSP -->
@@ -329,6 +332,8 @@
         <item>@string/app_ops_labels_toggle_nfc</item>
         <item>@string/app_ops_labels_toggle_mobile_data</item>
         <item>@string/app_ops_labels_superuser</item>
+        <item>@string/app_ops_labels_motion_sensors</item>
+        <item>@string/app_ops_labels_other_sensors</item>
     </string-array>
 
     <!-- App ops permissions -->
