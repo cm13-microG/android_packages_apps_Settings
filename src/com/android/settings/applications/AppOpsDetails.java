@@ -172,7 +172,9 @@ public class AppOpsDetails extends InstrumentedFragment {
              * one is safe to toggle while other permission-based ones could
              * certainly cause system-wide problems
              */
-            if (isPlatformSigned && tpl != AppOpsState.SU_TEMPLATE) {
+            if (isPlatformSigned && tpl != AppOpsState.SU_TEMPLATE &&
+                tpl != AppOpsState.SENSOR_TEMPLATE) {
+                /* Added Sensor template, as motion sensor default is 'ask' */  
                  continue;
             }
             List<AppOpsState.AppOpEntry> entries = mState.buildState(tpl,
