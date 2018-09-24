@@ -1103,4 +1103,7 @@
   <string name="security_settings_fingerprint_sensor_location_right">rechten Seite</string>
   <!-- SIM status format string -->
   <string name="sim_status_format_string">Anrufe: <xliff:g id="voice_state">%1$s</xliff:g> / Daten: <xliff:g id="data_state">%2$s</xliff:g></string>
+  <string name="security_patch_legacy">Inoffizielle Sicherheitsstufe</string>
+  <!-- "Legacy" Security Patch label -->
+  <string name="security_patch_legacy_info">Für diese Android-Version sind keine offiziellen Sicherheitsupdates mehr erhältlich.\nAlle enthaltenen Patches wurden aus neueren Versionen rückportiert.</string>
 </resources>
